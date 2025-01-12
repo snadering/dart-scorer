@@ -147,9 +147,9 @@ export const Game501 = () => {
               Miss
             </button>
             <button
-              className={`w-full sm:w-32 bg-purple-500 hover:bg-purple-600 text-white text-lg font-bold py-2 px-4 rounded ${
+              className={`w-full sm:w-32 bg-green-500 hover:bg-green-600 text-white text-lg font-bold py-2 px-4 rounded ${
                 multiplier === "Double" ? "opacity-50 cursor-not-allowed" : ""
-              } ${multiplier === "Triple" ? "bg-purple-700" : ""}`}
+              } ${multiplier === "Triple" ? "bg-green-700" : ""}`}
               onClick={() => handleMultiplier("Triple")}
               disabled={multiplier === "Double"}
             >
